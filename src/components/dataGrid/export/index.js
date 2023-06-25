@@ -28,7 +28,7 @@ const Export = () => {
           Nom: contract.Nom,
           Email: contract.Email,
           Tél: contract.Tél,
-          mensualité: contract.mensualité,
+          mensualité: contract.Mensualité,
           Adresse: contract.Adresse,
           CodePostal: contract.Code_postal,
           Commune: contract.Commune,
