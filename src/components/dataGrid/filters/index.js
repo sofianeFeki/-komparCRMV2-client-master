@@ -14,7 +14,7 @@ import moment from 'moment-timezone';
 const  intialState = {
   partenaires: ['Kompar_TV_KE40', 'Kompar_TV_KE24', 'Kompar_TV_KE27', 'Kompar_TV_KE42', 'Kompar_TV_KE31', 'Kompar_TV_KE41', 'Kompar Energie 21', 'Kompar_TV_KE39', 'Kompar_TV_KE30', 'Kompar_TV_KE34', 'Kompar Energie 00', 'Kompar Energie 01', 'Kompar_TV_KE20', 'Kompar_TV_KE35', 'Kompar_TV_KE33', 'Kompar_TV_KE23', 'Kompar energie 26', 'Kompar_TV_KE14', 'Kompar_TV_KE32', 'Kompar_TV_KE37', 'kompar energie 29', 'Kompar_TV_KE38', 'kompar energie 28', 'Kompar_TV_KE36'],
   qualificationsQté: ['conforme', 'non conforme', 'annulation', 'SAV', 'aucun(e)'],
-  qualificationsWc: ['validé', 'A suivre', 'annulation', 'SAV', 'faux numéro', 'aucun(e)'],
+  qualificationsWc: ['Validé', 'A suivre', 'annulation', 'SAV', 'faux numéro', 'aucun(e)'],
   fournisseurs: ['ohm', 'Samsung'],
   
 };
