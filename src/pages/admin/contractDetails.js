@@ -134,7 +134,7 @@ const ContractDetails = () => {
       navigate("/quality");
     }
     if (user.role === "wc") {
-      navigate("/welcome-call");
+      navigate("/wc");
     }
   };
   const { kwhPrice, abonnementPrice, kwhHpPrice, kwhHcPrice } =
