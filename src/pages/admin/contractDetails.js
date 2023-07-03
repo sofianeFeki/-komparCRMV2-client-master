@@ -24,6 +24,8 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { getContract } from "../../functions/contract";
 import moment from "moment";
 import ChangeCircleIcon from "@mui/icons-material/ChangeCircle";
+import ScriptWc from "../../components/qalification/ScriptWc";
+
 
 const pricesData = {
   "Classique - Base - Vert": {
@@ -166,6 +168,7 @@ const ContractDetails = () => {
           <Stack direction="row" spacing={2}>
             {quality ? <QualificationQualité data={quality} /> : null}
             {wc ? <QualificationWc data={wc} /> : null}
+            <ScriptWc data={data} />
             {sav ? <QualificationSav data={sav} /> : null}
             <Button variant="outlined" onClick={handleBackClick} size="small">
               retour
