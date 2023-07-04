@@ -227,6 +227,18 @@ const ContractDetails = () => {
                   )}
                 </ListItem>
                 <Divider />
+                     <ListItem>
+                  <ListItemText
+                    id="switch-list-label-wifi"
+                    primary="Type de contrat"
+                  />
+                  {!loading ? (
+                    <Typography>{data.Type_de_contrat}</Typography>
+                  ) : (
+                    <Skeleton width={150} animation="wave" />
+                  )}
+                </ListItem>
+                <Divider />
                 <ListItem>
                   <ListItemText
                     id="switch-list-label-wifi"
