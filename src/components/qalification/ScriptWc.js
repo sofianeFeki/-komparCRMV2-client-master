@@ -21,7 +21,9 @@ const ScriptWc = ({ data }) => {
         sur la protection des données personnelles chez Ohm énergie vous pouvez
         consulter la politique de confidentialité sur notre site internet
         www.ohm-energie.com. Pour rappel, mon collègue vous a contacté le{" "}
-        <strong>{moment(data.date_de_signature).format("DD/MM/YYYY")}</strong>{" "}
+        <strong>
+          {moment(data.date_de_la_signature).format("DD/MM/YYYY")}
+        </strong>{" "}
         pour vous proposer un contrat de <strong>{data.energie}</strong> .
         <ol>
           <li>
