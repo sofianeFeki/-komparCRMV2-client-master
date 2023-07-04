@@ -162,6 +162,11 @@ export const contractCreateColumns = [
     valueFormatter: ({ value }) =>
       moment(new Date(value)).format("DD/MM/YYYY "),
   },
+    {
+    field: "Type_de_contrat",
+    headerName: "Type de contrat",
+    editable: true,
+  },
   {
     field: "Mensualité",
     headerName: "Mensualité",
