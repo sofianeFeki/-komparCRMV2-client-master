@@ -147,7 +147,6 @@ const ContractDetails = () => {
       open={drawer}
       sx={{
         backgroundColor: darkMode ? grey[800] : grey[100],
-        height: "100vh",
       }}
     >
       <Box sx={{ m: 2 }}>
