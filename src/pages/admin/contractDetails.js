@@ -86,6 +86,13 @@ const pricesData = {
     "GN.BASE": { kwhPrice: 12.72, abonnementPrice: 7.26 },
     "GN.B2I": { kwhPrice: 10.61, abonnementPrice: 17.44 },
   },
+
+   "Gaz Fixe 1 an": {
+    "GN.B1": { kwhPrice: 18.2, abonnementPrice: 9.83 },
+    "GN.B0": { kwhPrice: 7.35, abonnementPrice: 12.01 },
+    "GN.BASE": { kwhPrice: 7.35, abonnementPrice: 11.32 },
+    "GN.B2I": { kwhPrice: 18.2, abonnementPrice: 9.83 },
+  },
 };
 
 const ContractDetails = () => {
