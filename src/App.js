@@ -15,6 +15,8 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { useSelector } from 'react-redux';
 import RequireAuth from './protectedRoutes/RequireAuth';
 import Auth from './pages/auth/Auth';
+import ContractUpdate from "./pages/admin/contractUpdate";
+
 
 const Login = lazy(() => import('./pages/login'));
 
@@ -67,6 +69,11 @@ function App() {
         <Route path="/admin" element={<Admin />} />
         <Route path="/admin/contract-create" element={<ContractCreate />} />
         <Route path="/admin/users" element={<Users />} />
+                  <Route
+                path="contract-update/:slug/:energie"
+                element={<ContractUpdate />}
+              />
+           
         </Route>
         <Route
               element={
