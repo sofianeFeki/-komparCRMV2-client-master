@@ -85,6 +85,17 @@ export const updateContractWc = async (slug, energie, qualificationsWc, authtoke
     },
   });
 
+export const updateContract = async (slug, energie, values, authtoken) =>
+  await axios.put(
+    `${API_BASE_URL}/contract/update/${slug}/${energie}`,
+    values,
+    {
+      headers: {
+        authtoken,
+      },
+    }
+  );
+
 
   export const getContractsExport = async (filters) =>
   await axios.post(`${API_BASE_URL}/contracts/export`, {
