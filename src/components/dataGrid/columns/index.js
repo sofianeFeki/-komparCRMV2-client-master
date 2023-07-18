@@ -242,8 +242,8 @@ export const adminColumns = [
       <GridActionsCellItem
         icon={<EditIcon />}
         label="Edit"
-        //component={Link}
-        // to={`/contract-update`}
+        component={Link}
+      to={`/contract-update/${params.row.clientRef}/${params.row.energie}`}
         showInMenu
       />,
 
