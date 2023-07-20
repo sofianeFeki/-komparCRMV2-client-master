@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { toast } from "react-toastify";
 
-const initialQualification = [ "aucun(e)",'conforme', 'non conforme', 'annulation', 'SAV'];
+const initialQualification = [ "aucun(e)",'conforme', 'non conforme', 'annulation', 'SAV',  "pas d'enregistrement",];
 
 const QualificationQualité = ({data}) => {
   const {slug, energie} = useParams()
