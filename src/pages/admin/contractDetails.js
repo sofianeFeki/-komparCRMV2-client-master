@@ -652,6 +652,49 @@ const ContractDetails = () => {
                     </Accordion>
                   </List>
                 </Paper>
+                            <Paper elevation={3} sx={{ mt: 1 }}>
+                  <List
+                    sx={{ width: "100%", paddingBottom: 0 }}
+                    subheader={<ListSubheader>Détail sav</ListSubheader>}
+                  >
+                    <ListItem>
+                      <ListItemText
+                        id="switch-list-label-wifi"
+                        primary="Qualification "
+                      />
+                      {!loading ? (
+                        <Chip label={sav && sav.qualification} />
+                      ) : (
+                        <Skeleton width={210} animation="wave" />
+                      )}
+                    </ListItem>
+                    <Divider />
+
+                    <Accordion>
+                      <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                      >
+                        <Typography>Comentaire</Typography>
+                      </AccordionSummary>
+                      <AccordionDetails>
+                        {!loading ? (
+                          <Typography
+                            sx={{
+                              overflowWrap: "break-word",
+                              whiteSpace: "pre-wrap",
+                            }}
+                          >
+                            {sav && sav.comment}
+                          </Typography>
+                        ) : (
+                          <Skeleton width={210} animation="wave" />
+                        )}
+                      </AccordionDetails>
+                    </Accordion>
+                  </List>
+                </Paper>
               </>
             )}
 
