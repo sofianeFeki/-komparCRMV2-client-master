@@ -26,11 +26,13 @@ export const createContract = async (contract, authtoken) =>
     quickFilter
   });
 
-  export const getSavRows = async (quickFilter) =>
-  await axios.post(`${API_BASE_URL}/sav-contracts/`,  {
-   
-    quickFilter
+ export const getSavRows = async (paginationModel, sortOptions, quickFilter) =>
+  await axios.post(`${API_BASE_URL}/sav-contracts/`, {
+    quickFilter,
+    paginationModel,
+    sortOptions,
   });
+
 
   export const getWcRows = async (quickFilter) =>
   await axios.post(`${API_BASE_URL}/wc-contracts/`,  {
