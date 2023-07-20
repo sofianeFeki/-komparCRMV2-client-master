@@ -45,7 +45,7 @@ function App() {
         <ThemeProvider theme={darkTheme}>
       <CrmAppbar  dark={darkMode} />
       <UserProvider>
-      <ToastContainer />
+      <ToastContainer autoClose={700} />
       <Routes>
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<Auth />} />
