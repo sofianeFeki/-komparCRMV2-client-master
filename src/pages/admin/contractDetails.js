@@ -145,7 +145,7 @@ const ContractDetails = () => {
       navigate("/quality");
     }
     if (user.role === "wc") {
-      navigate("/wc");
+      navigate("/welcome-call");
     }
   };
   const { kwhPrice, abonnementPrice, kwhHpPrice, kwhHcPrice } =
@@ -235,17 +235,50 @@ const ContractDetails = () => {
                   )}
                 </ListItem>
                 <Divider />
-                <ListItem>
-                  <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Type de contrat"
-                  />
-                  {!loading ? (
-                    <Typography>{data.Type_de_contrat}</Typography>
-                  ) : (
-                    <Skeleton width={150} animation="wave" />
-                  )}
-                </ListItem>
+                {data && data.Type_de_contrat && (
+                  <ListItem>
+                    <ListItemText
+                      id="switch-list-label-wifi"
+                      primary="Type de contrat"
+                    />
+                    {!loading ? (
+                      <Typography>{data.Type_de_contrat}</Typography>
+                    ) : (
+                      <Skeleton width={150} animation="wave" />
+                    )}
+                  </ListItem>
+                )}
+
+                <Divider />
+                {data && data.Mode_facturation && (
+                  <ListItem>
+                    <ListItemText
+                      id="switch-list-label-wifi"
+                      primary="Mode de facturation"
+                    />
+                    {!loading ? (
+                      <Typography>{data.Mode_facturation}</Typography>
+                    ) : (
+                      <Skeleton width={150} animation="wave" />
+                    )}
+                  </ListItem>
+                )}
+
+                <Divider />
+                {data && data.Option_tarifaire && (
+                  <ListItem>
+                    <ListItemText
+                      id="switch-list-label-wifi"
+                      primary="Option tarifaire"
+                    />
+                    {!loading ? (
+                      <Typography>{data.Option_tarifaire}</Typography>
+                    ) : (
+                      <Skeleton width={150} animation="wave" />
+                    )}
+                  </ListItem>
+                )}
+
                 <Divider />
                 <ListItem>
                   <ListItemText
@@ -407,6 +440,24 @@ const ContractDetails = () => {
                     <Skeleton width={210} animation="wave" />
                   )}
                 </ListItem>
+                <Divider />
+                {data && data.Date_naissance && (
+                  <ListItem>
+                    <ListItemText
+                      id="switch-list-label-wifi"
+                      primary="Date de naissance"
+                    />
+                    {!loading ? (
+                      <Typography>
+                        {" "}
+                        {moment(data.Date_naissance).format("DD/MM/YYYY")}
+                      </Typography>
+                    ) : (
+                      <Skeleton width={150} animation="wave" />
+                    )}
+                  </ListItem>
+                )}
+
                 <Divider />
                 <ListItem>
                   <ListItemText id="switch-list-label-wifi" primary="Adresse" />
@@ -652,7 +703,7 @@ const ContractDetails = () => {
                     </Accordion>
                   </List>
                 </Paper>
-                            <Paper elevation={3} sx={{ mt: 1 }}>
+                <Paper elevation={3} sx={{ mt: 1 }}>
                   <List
                     sx={{ width: "100%", paddingBottom: 0 }}
                     subheader={<ListSubheader>Détail sav</ListSubheader>}
