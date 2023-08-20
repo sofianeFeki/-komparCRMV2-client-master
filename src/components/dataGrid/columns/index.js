@@ -162,7 +162,7 @@ export const contractCreateColumns = [
     valueFormatter: ({ value }) =>
       moment(new Date(value)).format("DD/MM/YYYY "),
   },
-    {
+  {
     field: "Type_de_contrat",
     headerName: "Type de contrat",
     editable: true,
@@ -176,6 +176,23 @@ export const contractCreateColumns = [
     field: "Fournisseur",
     headerName: "Fournisseur",
     editable: true,
+  },
+  {
+    field: "Mode_facturation",
+    headerName: "Mode de facturation",
+    editable: true,
+  },
+  {
+    field: "Option_tarifaire",
+    headerName: "Option tarifaire",
+    editable: true,
+  },
+  {
+    field: "Date_naissance",
+    headerName: "Date de naissance",
+    editable: true,
+    valueFormatter: ({ value }) =>
+      moment(new Date(value)).format("DD/MM/YYYY "),
   },
 ];
 
