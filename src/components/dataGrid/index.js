@@ -90,6 +90,30 @@ const StyledDataGrid = styled(DataGrid)(({ theme }) => ({
       },
     },
   },
+    "& .super-app-theme--validé": {
+    backgroundColor: getBackgroundColor(
+      theme.palette.success.main,
+      theme.palette.mode
+    ),
+    "&:hover": {
+      backgroundColor: getHoverBackgroundColor(
+        theme.palette.success.main,
+        theme.palette.mode
+      ),
+    },
+    "&.Mui-selected": {
+      backgroundColor: getSelectedBackgroundColor(
+        theme.palette.success.main,
+        theme.palette.mode
+      ),
+      "&:hover": {
+        backgroundColor: getSelectedHoverBackgroundColor(
+          theme.palette.success.main,
+          theme.palette.mode
+        ),
+      },
+    },
+  },
 }));
 
 const theme = createTheme(frFR);
