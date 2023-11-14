@@ -29,6 +29,7 @@ const initialQualification = [
   "Client toujours injoignable suite à un rappel planifié",
   "annulation",
   "fiche déjà qualifiee par SAV / Qualité",
+  "fiche annulé par le systéme",
 ];
 
 const initialAnnuleQualification = [
