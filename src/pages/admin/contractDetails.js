@@ -83,7 +83,7 @@ const pricesData = {
     30: { kwhHpPrice: 24.83, kwhHcPrice: 14.9, abonnementPrice: 30.97 },
     36: { kwhHpPrice: 24.83, kwhHcPrice: 14.9, abonnementPrice: 35.74 },
   },
- "Ohm Fixe 2 ans BASE": {
+ "Ohm Fixe 1 ans BASE": {
     3: { kwhPrice: 19.92, abonnementPrice: 8.17 },
     4: { kwhPrice: 19.92, abonnementPrice: 9.78 },
     5: { kwhPrice: 19.92, abonnementPrice: 10.08 },
@@ -101,7 +101,7 @@ const pricesData = {
     36: { kwhPrice: 20.23, abonnementPrice: 36.59 },
   },
 
-  "Ohm Fixe 2 ans HPHC": {
+  "Ohm Fixe 1 ans HPHC": {
     3: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.18 },
     4: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.18 },
     5: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.49 },
