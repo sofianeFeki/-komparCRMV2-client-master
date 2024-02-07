@@ -120,17 +120,17 @@ const pricesData = {
   },
 
   "Classique Gaz": {
-    "GN.B1": { kwhPrice: 10.21, abonnementPrice: 17.44 },
-    "GN.B0": { kwhPrice: 12.43 , abonnementPrice: 7.26 },
-    "GN.BASE": { kwhPrice: 12.32, abonnementPrice: 7.26 },
-    "GN.B2I": { kwhPrice: 10.21, abonnementPrice: 17.44 },
+    "GN.B1": { kwhPrice: 9.41, abonnementPrice: 17.44 },
+    "GN.B0": { kwhPrice: 11.63 , abonnementPrice: 7.26 },
+    "GN.BASE": { kwhPrice: 11.52 , abonnementPrice: 7.26 },
+    "GN.B2I": { kwhPrice: 9.41, abonnementPrice: 17.44 },
   },
 
   "Gaz Fixe 1 an": {
-    "GN.B1": { kwhPrice: 10.42, abonnementPrice: 18.51 },
-    "GN.B0": { kwhPrice: 12.96 , abonnementPrice: 7.48 },
-    "GN.BASE": { kwhPrice: 12.28 , abonnementPrice: 7.48 },
-    "GN.B2I": { kwhPrice: 10.42, abonnementPrice: 18.51 },
+    "GN.B1": { kwhPrice: 9.22, abonnementPrice: 18.51 },
+    "GN.B0": { kwhPrice: 12.17 , abonnementPrice: 7.48 },
+    "GN.BASE": { kwhPrice: 11.41  , abonnementPrice: 7.48 },
+    "GN.B2I": { kwhPrice: 9.22, abonnementPrice: 18.51 },
   },
 };
 
