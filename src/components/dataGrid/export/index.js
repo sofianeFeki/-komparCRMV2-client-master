@@ -28,6 +28,9 @@ const Export = () => {
           Nom: contract.Nom,
           Email: contract.Email,
           Tél: contract.Tél,
+           Date_naissance:
+            contract.Date_naissance &&
+            moment(contract.Date_naissance).format("YYYY"),
           mensualité: contract.Mensualité,
           Adresse: contract.Adresse,
           CodePostal: contract.Code_postal,
