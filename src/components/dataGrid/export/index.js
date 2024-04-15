@@ -41,6 +41,7 @@ const Export = () => {
           offre: contract.Offre,
           statut: contract.Statut,
           partenaire: contract.Nom_du_partenaire,
+          Type_de_contrat:contract.Type_de_contrat,
           date_début: moment(contract.date_de_début).format('DD/MM/YYYY'),
           date_signature:moment(contract.date_de_la_signature).format('DD/MM/YYYY'),
           date_de_creation: moment(contract.createdAt).format('DD/MM/YYYY HH:mm:ss'),
