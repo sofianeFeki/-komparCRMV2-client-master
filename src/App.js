@@ -15,7 +15,6 @@ import { useSelector } from "react-redux";
 import RequireAuth from "./protectedRoutes/RequireAuth";
 import Auth from "./pages/auth/Auth";
 import ContractUpdate from "./pages/admin/contractUpdate";
-import Users from "./pages/admin/user/users";
 
 const Login = lazy(() => import("./pages/login"));
 
