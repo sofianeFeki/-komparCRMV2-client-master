@@ -73,7 +73,6 @@ function App() {
                 path='/admin/contract-create'
                 element={<ContractCreate />}
               />
-              <Route path='/admin/users' element={<Users />} />
               <Route
                 path='contract-update/:slug/:energie'
                 element={<ContractUpdate />}
