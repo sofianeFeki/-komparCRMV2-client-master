@@ -31,39 +31,39 @@ import ScriptWc from "../../components/qalification/ScriptWc";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const pricesData = {
-   "Classique - Base - Vert": {
-    3: { kwhPrice: 18.87, abonnementPrice: 7.19 },
-    4: { kwhPrice: 18.87, abonnementPrice: 8.58 },
-    5: { kwhPrice: 18.87, abonnementPrice: 8.85 },
-    6: { kwhPrice: 18.87, abonnementPrice: 9.28 },
-    7: { kwhPrice: 18.87, abonnementPrice: 10.82 },
-    8: { kwhPrice: 18.87, abonnementPrice: 11.09 },
-    9: { kwhPrice: 18.87, abonnementPrice: 11.56 },
-    10: { kwhPrice: 18.87, abonnementPrice: 13.13 },
-    11: { kwhPrice: 18.87, abonnementPrice: 13.42 },
-    12: { kwhPrice: 18.87, abonnementPrice: 13.89 },
-    15: { kwhPrice: 18.87, abonnementPrice: 16.03 },
-    18: { kwhPrice: 18.87, abonnementPrice: 18.15 },
-    24: { kwhPrice: 18.87, abonnementPrice: 22.96 },
-    30: { kwhPrice: 18.87, abonnementPrice: 26.92 },
-    36: { kwhPrice: 18.87, abonnementPrice: 31.75 },
+  "Classique - Base - Vert": {
+    3: { kwhPrice: 18.87, abonnementPrice: 7.06 },
+    4: { kwhPrice: 18.87, abonnementPrice: 8.45 },
+    5: { kwhPrice: 18.87, abonnementPrice: 8.71 },
+    6: { kwhPrice: 18.87, abonnementPrice: 9.14 },
+    7: { kwhPrice: 18.87, abonnementPrice: 10.68 },
+    8: { kwhPrice: 18.87, abonnementPrice: 10.96 },
+    9: { kwhPrice: 18.87, abonnementPrice: 11.42 },
+    10: { kwhPrice: 18.87, abonnementPrice: 13.0 },
+    11: { kwhPrice: 18.87, abonnementPrice: 13.29 },
+    12: { kwhPrice: 18.87, abonnementPrice: 13.75 },
+    15: { kwhPrice: 18.87, abonnementPrice: 15.89 },
+    18: { kwhPrice: 18.87, abonnementPrice: 18.01 },
+    24: { kwhPrice: 18.87, abonnementPrice: 22.82 },
+    30: { kwhPrice: 18.87, abonnementPrice: 26.78 },
+    36: { kwhPrice: 18.87, abonnementPrice: 31.62 },
   },
   "Classique - HPHC - Vert": {
-    3: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 8.93 },
-    4: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 8.93 },
-    5: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 9.20 },
-    6: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 9.63 },
-    7: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 11.37 },
-    8: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 11.64 },
-    9: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 12.11 },
-    10: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 13.75 },
-    11: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 14.04 },
-    12: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 14.51 },
-    15: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 16.78 },
-    18: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 19.02 },
-    24: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 23.78 },
-    30: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 28.02 },
-    36: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 32.30 },
+    3: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 8.8 },
+    4: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 8.8 },
+    5: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 9.06 },
+    6: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 9.5 },
+    7: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 11.23 },
+    8: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 11.51 },
+    9: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 11.97 },
+    10: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 13.62 },
+    11: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 13.91 },
+    12: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 14.37 },
+    15: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 16.64 },
+    18: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 18.88 },
+    24: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 23.64 },
+    30: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 27.87 },
+    36: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 32.17 },
   },
 
   "Ohm Soir & WE": {
@@ -83,24 +83,8 @@ const pricesData = {
     30: { kwhHpPrice: 24.83, kwhHcPrice: 14.9, abonnementPrice: 30.97 },
     36: { kwhHpPrice: 24.83, kwhHcPrice: 14.9, abonnementPrice: 35.74 },
   },
-  "Ohm Soir & WE FIXE": {
-    3: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 8.27 },
-    4: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 10.27 },
-    5: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 10.58 },
-    6: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 11.07 },
-    7: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 13.07 },
-    8: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 13.39 },
-    9: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 13.92 },
-    10: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 15.82 },
-    11: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 16.15 },
-    12: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 16.68 },
-    15: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 19.29 },
-    18: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 21.87 },
-    24: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 27.34 },
-    30: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 32.22 },
-    36: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 37.15 },
-  },
- "Ohm Fixe 1 an BASE": {
+
+  "Ohm Fixe 2 ans BASE": {
     3: { kwhPrice: 19.92, abonnementPrice: 8.17 },
     4: { kwhPrice: 19.92, abonnementPrice: 9.78 },
     5: { kwhPrice: 19.92, abonnementPrice: 10.08 },
@@ -118,7 +102,7 @@ const pricesData = {
     36: { kwhPrice: 20.23, abonnementPrice: 36.59 },
   },
 
-  "Ohm Fixe 1 an HPHC": {
+  "Ohm Fixe 2 ans HPHC": {
     3: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.18 },
     4: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.18 },
     5: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.49 },
@@ -137,17 +121,17 @@ const pricesData = {
   },
 
   "Classique Gaz": {
-    "GN.B1": { kwhPrice: 9.41, abonnementPrice: 17.44 },
-    "GN.B0": { kwhPrice: 11.63 , abonnementPrice: 7.26 },
-    "GN.BASE": { kwhPrice: 11.52 , abonnementPrice: 7.26 },
-    "GN.B2I": { kwhPrice: 9.41, abonnementPrice: 17.44 },
+    "GN.B1": { kwhPrice: 10.61, abonnementPrice: 17.44 },
+    "GN.B0": { kwhPrice: 12.83, abonnementPrice: 7.26 },
+    "GN.BASE": { kwhPrice: 12.72, abonnementPrice: 7.26 },
+    "GN.B2I": { kwhPrice: 10.61, abonnementPrice: 17.44 },
   },
 
   "Gaz Fixe 1 an": {
-    "GN.B1": { kwhPrice: 9.22, abonnementPrice: 18.51 },
-    "GN.B0": { kwhPrice: 12.17 , abonnementPrice: 7.48 },
-    "GN.BASE": { kwhPrice: 11.41  , abonnementPrice: 7.48 },
-    "GN.B2I": { kwhPrice: 9.22, abonnementPrice: 18.51 },
+    "GN.B1": { kwhPrice: 18.2, abonnementPrice: 9.83 },
+    "GN.B0": { kwhPrice: 7.35, abonnementPrice: 12.01 },
+    "GN.BASE": { kwhPrice: 7.35, abonnementPrice: 11.32 },
+    "GN.B2I": { kwhPrice: 18.2, abonnementPrice: 9.83 },
   },
 };
 
@@ -191,6 +175,9 @@ const ContractDetails = () => {
     if (user.role === "admin") {
       navigate("/admin");
     }
+    if (user.role === "superviseur") {
+      navigate("/admin");
+    }
     if (user.role === "sav") {
       navigate("/sav");
     }
@@ -213,25 +200,25 @@ const ContractDetails = () => {
     >
       <Box sx={{ m: 2 }}>
         <Box sx={{ display: "flex", justifyContent: "space-between" }}>
-          <Stack direction="row" spacing={1}>
-            <Typography variant="h5" sx={{ fontWeight: 700 }}>
+          <Stack direction='row' spacing={1}>
+            <Typography variant='h5' sx={{ fontWeight: 700 }}>
               Détail de la souscription
             </Typography>
             {otherContractLink && (
               <Chip
                 onClick={handleOtherContractClick}
-                label=" switch contrat"
+                label=' switch contrat'
                 icon={<ChangeCircleIcon />}
               />
             )}
           </Stack>
 
-          <Stack direction="row" spacing={2}>
+          <Stack direction='row' spacing={2}>
             {quality ? <QualificationQualité data={quality} /> : null}
             {wc ? <QualificationWc data={wc} /> : null}
             {sav ? <QualificationSav data={sav} /> : null}
             <ScriptWc data={data} />
-            <Button variant="outlined" onClick={handleBackClick} size="small">
+            <Button variant='outlined' onClick={handleBackClick} size='small'>
               retour
             </Button>
           </Stack>
@@ -245,59 +232,59 @@ const ContractDetails = () => {
               >
                 <ListItem>
                   <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Ref contrat"
+                    id='switch-list-label-wifi'
+                    primary='Ref contrat'
                   />
                   {!loading ? (
                     <Typography>{data.contratRef}</Typography>
                   ) : (
-                    <Skeleton width={210} animation="wave" />
+                    <Skeleton width={210} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
                   <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Ref client"
+                    id='switch-list-label-wifi'
+                    primary='Ref client'
                   />
                   {!loading ? (
                     <Typography>{data.clientRef}</Typography>
                   ) : (
-                    <Skeleton width={210} animation="wave" />
+                    <Skeleton width={210} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
-                  <ListItemText id="switch-list-label-wifi" primary="Énergie" />
+                  <ListItemText id='switch-list-label-wifi' primary='Énergie' />
                   {!loading ? (
                     <Typography>{data.energie}</Typography>
                   ) : (
-                    <Skeleton width={80} animation="wave" />
+                    <Skeleton width={80} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
                   <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Point de livraison"
+                    id='switch-list-label-wifi'
+                    primary='Point de livraison'
                   />
                   {!loading ? (
                     <Typography>{data.Point_de_livraison}</Typography>
                   ) : (
-                    <Skeleton width={150} animation="wave" />
+                    <Skeleton width={150} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 {data && data.Type_de_contrat && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Type de contrat"
+                      id='switch-list-label-wifi'
+                      primary='Type de contrat'
                     />
                     {!loading ? (
                       <Typography>{data.Type_de_contrat}</Typography>
                     ) : (
-                      <Skeleton width={150} animation="wave" />
+                      <Skeleton width={150} animation='wave' />
                     )}
                   </ListItem>
                 )}
@@ -306,13 +293,13 @@ const ContractDetails = () => {
                 {data && data.Mode_facturation && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Mode de facturation"
+                      id='switch-list-label-wifi'
+                      primary='Mode de facturation'
                     />
                     {!loading ? (
                       <Typography>{data.Mode_facturation}</Typography>
                     ) : (
-                      <Skeleton width={150} animation="wave" />
+                      <Skeleton width={150} animation='wave' />
                     )}
                   </ListItem>
                 )}
@@ -321,13 +308,13 @@ const ContractDetails = () => {
                 {data && data.Option_tarifaire && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Option tarifaire"
+                      id='switch-list-label-wifi'
+                      primary='Option tarifaire'
                     />
                     {!loading ? (
                       <Typography>{data.Option_tarifaire}</Typography>
                     ) : (
-                      <Skeleton width={150} animation="wave" />
+                      <Skeleton width={150} animation='wave' />
                     )}
                   </ListItem>
                 )}
@@ -335,92 +322,92 @@ const ContractDetails = () => {
                 <Divider />
                 <ListItem>
                   <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Partenaire"
+                    id='switch-list-label-wifi'
+                    primary='Partenaire'
                   />
                   {!loading ? (
                     <Typography>{data.Nom_du_partenaire}</Typography>
                   ) : (
-                    <Skeleton width={150} animation="wave" />
+                    <Skeleton width={150} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
                   <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Date début"
+                    id='switch-list-label-wifi'
+                    primary='Date début'
                   />
                   {!loading ? (
                     <Typography>
                       {moment(data.date_de_début).format("DD/MM/YYYY")}
                     </Typography>
                   ) : (
-                    <Skeleton width={130} animation="wave" />
+                    <Skeleton width={130} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
                   <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Date de signature"
+                    id='switch-list-label-wifi'
+                    primary='Date de signature'
                   />
                   {!loading ? (
                     <Typography>
                       {moment(data.date_de_la_signature).format("DD/MM/YYYY")}
                     </Typography>
                   ) : (
-                    <Skeleton width={130} animation="wave" />
+                    <Skeleton width={130} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
                   <ListItemText
-                    id="switch-list-label-wifi"
-                    primary="Mensualité "
+                    id='switch-list-label-wifi'
+                    primary='Mensualité '
                   />
                   {!loading ? (
                     <Typography>{data.Mensualité} € </Typography>
                   ) : (
-                    <Skeleton width={40} animation="wave" />
+                    <Skeleton width={40} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
-                  <ListItemText id="switch-list-label-wifi" primary="Statut" />
+                  <ListItemText id='switch-list-label-wifi' primary='Statut' />
                   {!loading ? (
                     <Typography>{data.Statut} </Typography>
                   ) : (
-                    <Skeleton width={80} animation="wave" />
+                    <Skeleton width={80} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem sx={{ fontWeight: 700 }}>
                   <ListItemText
                     sx={{ fontWeight: 700 }}
-                    id="switch-list-label-wifi"
-                    primary="Puissance"
+                    id='switch-list-label-wifi'
+                    primary='Puissance'
                   />
                   {!loading ? (
                     <Typography>{data.Puissance}</Typography>
                   ) : (
-                    <Skeleton width={40} animation="wave" />
+                    <Skeleton width={40} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
-                  <ListItemText id="switch-list-label-wifi" primary="Offre" />
+                  <ListItemText id='switch-list-label-wifi' primary='Offre' />
                   {!loading ? (
                     <Typography>{data.Offre}</Typography>
                   ) : (
-                    <Skeleton width={70} animation="wave" />
+                    <Skeleton width={70} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 {!loading && kwhPrice && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Prix kWh HTT"
+                      id='switch-list-label-wifi'
+                      primary='Prix kWh HTT'
                     />
                     <Typography>{kwhPrice} €</Typography>
                   </ListItem>
@@ -430,8 +417,8 @@ const ContractDetails = () => {
                 {!loading && kwhHpPrice && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Prix kWh HP HTT"
+                      id='switch-list-label-wifi'
+                      primary='Prix kWh HP HTT'
                     />
                     <Typography>{kwhHpPrice} €</Typography>
                   </ListItem>
@@ -441,8 +428,8 @@ const ContractDetails = () => {
                 {!loading && kwhHcPrice && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Prix kWh HC HTT"
+                      id='switch-list-label-wifi'
+                      primary='Prix kWh HC HTT'
                     />
                     <Typography>{kwhHcPrice} €</Typography>
                   </ListItem>
@@ -450,8 +437,8 @@ const ContractDetails = () => {
                 {!loading && abonnementPrice && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Abonnement €/mois HTT"
+                      id='switch-list-label-wifi'
+                      primary='Abonnement €/mois HTT'
                     />
                     <Typography>{abonnementPrice} €</Typography>
                   </ListItem>
@@ -466,39 +453,39 @@ const ContractDetails = () => {
                 subheader={<ListSubheader>Détail client</ListSubheader>}
               >
                 <ListItem>
-                  <ListItemText id="switch-list-label-wifi" primary="Contact" />
+                  <ListItemText id='switch-list-label-wifi' primary='Contact' />
                   {!loading ? (
                     <Typography>
                       {data.Civility} {data.Prénom} {data.Nom}
                     </Typography>
                   ) : (
-                    <Skeleton width={210} animation="wave" />
+                    <Skeleton width={210} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
-                  <ListItemText id="switch-list-label-wifi" primary="Tel" />
+                  <ListItemText id='switch-list-label-wifi' primary='Tel' />
                   {!loading ? (
                     <Typography>{data.Tél}</Typography>
                   ) : (
-                    <Skeleton width={210} animation="wave" />
+                    <Skeleton width={210} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 <ListItem>
-                  <ListItemText id="switch-list-label-wifi" primary="Email" />
+                  <ListItemText id='switch-list-label-wifi' primary='Email' />
                   {!loading ? (
                     <Typography>{data.Email}</Typography>
                   ) : (
-                    <Skeleton width={210} animation="wave" />
+                    <Skeleton width={210} animation='wave' />
                   )}
                 </ListItem>
                 <Divider />
                 {data && data.Date_naissance && (
                   <ListItem>
                     <ListItemText
-                      id="switch-list-label-wifi"
-                      primary="Date de naissance"
+                      id='switch-list-label-wifi'
+                      primary='Date de naissance'
                     />
                     {!loading ? (
                       <Typography>
@@ -506,26 +493,26 @@ const ContractDetails = () => {
                         {moment(data.Date_naissance).format("DD/MM/YYYY")}
                       </Typography>
                     ) : (
-                      <Skeleton width={150} animation="wave" />
+                      <Skeleton width={150} animation='wave' />
                     )}
                   </ListItem>
                 )}
 
                 <Divider />
                 <ListItem>
-                  <ListItemText id="switch-list-label-wifi" primary="Adresse" />
+                  <ListItemText id='switch-list-label-wifi' primary='Adresse' />
                   {!loading ? (
                     <Typography>
                       {data.Adresse} {data.Code_postal} {data.Commune}
                     </Typography>
                   ) : (
-                    <Skeleton width={210} animation="wave" />
+                    <Skeleton width={210} animation='wave' />
                   )}
                 </ListItem>
               </List>
             </Paper>
 
-            {user && user.role === "admin" && (
+            {user && (user.role === "admin" || user.role === "superviseur") && (
               <>
                 <Paper elevation={3} sx={{ mt: 1 }}>
                   <List
@@ -534,13 +521,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={quality && quality.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -548,8 +535,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -564,7 +551,7 @@ const ContractDetails = () => {
                             {quality && quality.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
@@ -579,13 +566,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={wc && wc.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -593,8 +580,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -609,7 +596,7 @@ const ContractDetails = () => {
                             {wc && wc.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
@@ -622,13 +609,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={sav && sav.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -636,8 +623,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -652,7 +639,7 @@ const ContractDetails = () => {
                             {sav && sav.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
@@ -672,13 +659,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={wc && wc.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -686,8 +673,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -702,7 +689,7 @@ const ContractDetails = () => {
                             {wc && wc.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
@@ -720,13 +707,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={quality && quality.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -734,8 +721,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -750,7 +737,7 @@ const ContractDetails = () => {
                             {quality && quality.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
@@ -763,13 +750,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={sav && sav.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -777,8 +764,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -793,7 +780,7 @@ const ContractDetails = () => {
                             {sav && sav.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
@@ -811,13 +798,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={quality && quality.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -825,8 +812,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -841,7 +828,7 @@ const ContractDetails = () => {
                             {quality && quality.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
@@ -856,13 +843,13 @@ const ContractDetails = () => {
                   >
                     <ListItem>
                       <ListItemText
-                        id="switch-list-label-wifi"
-                        primary="Qualification "
+                        id='switch-list-label-wifi'
+                        primary='Qualification '
                       />
                       {!loading ? (
                         <Chip label={wc && wc.qualification} />
                       ) : (
-                        <Skeleton width={210} animation="wave" />
+                        <Skeleton width={210} animation='wave' />
                       )}
                     </ListItem>
                     <Divider />
@@ -870,8 +857,8 @@ const ContractDetails = () => {
                     <Accordion>
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
+                        aria-controls='panel1a-content'
+                        id='panel1a-header'
                       >
                         <Typography>Comentaire</Typography>
                       </AccordionSummary>
@@ -886,7 +873,7 @@ const ContractDetails = () => {
                             {wc && wc.comment}
                           </Typography>
                         ) : (
-                          <Skeleton width={210} animation="wave" />
+                          <Skeleton width={210} animation='wave' />
                         )}
                       </AccordionDetails>
                     </Accordion>
