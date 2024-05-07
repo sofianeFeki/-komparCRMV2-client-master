@@ -66,7 +66,23 @@ const pricesData = {
     36: { kwhHpPrice: 20.4, kwhHcPrice: 15.13, abonnementPrice: 32.30 },
   },
 
-
+ "Ohm Fixe 1 an BASE": {
+    3: { kwhPrice: 19.92, abonnementPrice: 8.17 },
+    4: { kwhPrice: 19.92, abonnementPrice: 9.78 },
+    5: { kwhPrice: 19.92, abonnementPrice: 10.08 },
+    6: { kwhPrice: 19.92, abonnementPrice: 10.58 },
+    7: { kwhPrice: 20.23, abonnementPrice: 12.37 },
+    8: { kwhPrice: 20.23, abonnementPrice: 12.68 },
+    9: { kwhPrice: 20.23, abonnementPrice: 13.22 },
+    10: { kwhPrice: 20.23, abonnementPrice: 15.04 },
+    11: { kwhPrice: 20.23, abonnementPrice: 15.38 },
+    12: { kwhPrice: 20.23, abonnementPrice: 15.92 },
+    15: { kwhPrice: 20.23, abonnementPrice: 18.39 },
+    18: { kwhPrice: 20.23, abonnementPrice: 20.84 },
+    24: { kwhPrice: 20.23, abonnementPrice: 26.42 },
+    30: { kwhPrice: 20.23, abonnementPrice: 31.0 },
+    36: { kwhPrice: 20.23, abonnementPrice: 36.59 },
+  },
  "Ohm Soir & WE FIXE": {
     3: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 8.27 },
     4: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 10.27 },
