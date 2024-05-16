@@ -101,6 +101,24 @@ const pricesData = {
     36: { kwhHpPrice: 20.64, kwhHcPrice: 12.39, abonnementPrice: 37.15 },
   },
 
+  "Ohm Fixe 1 an HPHC": {
+    3: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.18 },
+    4: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.18 },
+    5: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.49 },
+    6: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 10.99 },
+    7: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 13.0 },
+    8: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 13.32 },
+    9: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 13.85 },
+    10: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 15.76 },
+    11: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 16.09 },
+    12: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 16.63 },
+    15: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 19.26 },
+    18: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 21.85 },
+    24: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 27.36 },
+    30: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 32.26 },
+    36: { kwhHpPrice: 24.96, kwhHcPrice: 15.04, abonnementPrice: 37.23 },
+  },
+
 
 "Classique Gaz": {
     "GN.B1": { kwhPrice: 9.41, abonnementPrice: 17.44 },
