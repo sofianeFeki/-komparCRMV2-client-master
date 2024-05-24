@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
-const initialQualification = ['aucun(e)', 'validé', 'annulation', 'A relancer'];
+const initialQualification = ['aucun(e)', 'validé', 'annulation', 'A relancer', 'délais dépassé'];
 
 
 const QualificationSav = ({data}) => {
