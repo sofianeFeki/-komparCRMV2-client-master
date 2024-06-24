@@ -23,8 +23,8 @@ Afin de valider votre contrat de fourniture d'énergie, je dois réaliser un ré
 Pour avoir plus d'information sur la protection des données personnelles chez Ohm énergie vous pouvez consulter la politique de confidentialité sur notre site internet www.ohm-energie.com.
 
 Pour rappel, mon collègue vous a  <strong>
-  {`Contacté le ${moment(data.date_de_la_signature).add(2, 'hours').format("DD/MM/YYYY")} à ${moment(data.date_de_la_signature).add(2, 'hours').format("HH:mm")}`}
-</strong>
+  {`Contacté le ${moment(data.date_de_la_signature).format("DD/MM/YYYY")} à ${moment(data.date_de_la_signature).add(2, 'hours').format("HH:mm")}`}
+</strong> 
  pour vous proposer un contrat de fourniture [d'électricité / de gaz / d’électricité et de gaz].
 
 
