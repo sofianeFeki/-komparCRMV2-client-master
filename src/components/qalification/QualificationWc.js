@@ -30,6 +30,7 @@ const initialQualification = [
   "annulation",
   "fiche déjà qualifiee par SAV / Qualité",
   "fiche dépasse les 14 jours",
+  "le client a +75 ans",
 ];
 
 const initialAnnuleQualification = [
