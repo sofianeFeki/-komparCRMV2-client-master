@@ -13,7 +13,7 @@ const ScriptWc = ({ data }) => {
   const content = (
     <Stack spacing={2} width={830} mt={1}>
       <Typography variant="subtitle1">
- Bonjour, c’est [XXX] de KOMPAR.</br>
+ Bonjour, c’est [XXX] de KOMPAR.
  Je vous appelle pour vous souhaiter la bienvenue et vous confirmer la validation de votre contrat OHM Énergie. 
 
 Afin de valider votre contrat de fourniture d'énergie, je dois réaliser un résumé de ce que mon collègue vous a présenté. M'autorisez-vous, à des fins de conformité, d'enregistrer les minutes qui viennent ?
