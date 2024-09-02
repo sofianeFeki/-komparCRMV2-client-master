@@ -30,13 +30,14 @@ const Sav = () => {
       setLoading(false);
     } else {
       getSavRows(paginationModel, sortOptions, quickFilter.text).then((c) => {
-        const { data, total } = c.data;
-        setRows(data);
-        setTotalRowCount(total);
-        //console.log(c.data);
-        setLoading(false);
-      });
+      const { data, total } = c.data;
+      setRows(data);
+      setTotalRowCount(total);
+      //console.log(c.data);
+      setLoading(false);
+    });
     }
+    
   };
 
   useEffect(() => {
