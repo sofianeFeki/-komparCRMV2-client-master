@@ -70,7 +70,7 @@ export const Filters = () => {
   const { filters, user } = useSelector((state) => ({ ...state }));
 
   const { paginationModel, sortOptions } = useSelector(
-    (state) => state.paginationAndSortReducera
+    (state) => state.paginationAndSortReducer
   );
 
   const [filterCount, setFilterCount] = useState(0);
