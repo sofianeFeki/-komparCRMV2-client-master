@@ -59,6 +59,7 @@ const intialState = {
     'faux numéro',
     'aucun(e)',
     'Répondeur',
+    'le client a +75 ans'
   ],
   fournisseurs: ['ohm', 'primeo'],
 };
