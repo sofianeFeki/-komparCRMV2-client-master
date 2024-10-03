@@ -20,6 +20,8 @@ const initialQualification = [
   'annulation',
   'A relancer',
   'délais dépassé',
+   'A suivre',
+  'Refus de répondre',
 ];
 
 const QualificationSav = ({ data }) => {
